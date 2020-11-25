@@ -1,0 +1,50 @@
+body{
+background-color:skyblue;
+color:;
+
+}
+
+a{
+color:black;
+text-decoration:white;
+
+}
+
+a:hover{
+color:Black;
+background: :black;
+
+}
+.greenlink:hover{
+color: blue;
+background:white;
+}
+
+#div2{
+float:center;
+background:#70db93;
+width: 50%;
+  min-height:240px;
+   font-family: cursive;
+}
+#div1{
+float:center;
+background:#c0c0c0;
+width: 30%;
+  min-height:160px;
+   font-family: cursive;
+}
+#div3{
+
+background:#70db93;
+width: 100%;
+  min-height:240px;
+   font-family: cursive;
+}
+h2
+ {
+ background-color: #70db93
+ }
+ h1
+  {
+    font-family: cursive;
