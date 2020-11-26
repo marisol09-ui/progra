@@ -57,6 +57,15 @@
 <input type="radio" name="boton" value="2">Segundo<br>
 <input type="radio" name="boton" value="3">Tercero<br>
 <input type="radio" name="boton" value="3">Diversificado<br>
+<select name="diversificado">
+  <option value="1">Bachillerato en Computación</option>
+  <option value="2">Bachillerato en Diseño Gráfico</option>
+  <option value="3">Perito Contador</option>
+  <option value="4">Secretariado Bilingüe</option>
+  <option value="5" selected>Diversificado</option>
+  
+</select>
+
 
 
 
@@ -65,8 +74,7 @@
   </p>
  
   <p>
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Borrar">
+   
   </p>
 </form>
 <P>
@@ -112,9 +120,10 @@ PRIMERO:
  <p>
     CUARTO: nosotros los comparecientes, damos lectura el presente contrato, aprovado según resolución DDS-976-2017 de ls dirección de atencion y asistencia al consumidor enterados de su contenido, objeto, validez y demás efectos legales, lo ratificamos aceptamos y firmamos.
     <p> 
-
-      <h3>F.______________________   F.______________________ F.______________________</h3>
-    <H4> &nbsp; &nbsp;    &nbsp; &nbsp;   &nbsp; &nbsp;  </H4>
-
+ <form action="inscripcion.html" method="get">
+  <p>Nombre: <input type="text" name="nombre" size="40"></p>
+ <label for="dpi">Dpi: <span><em></em></span></label>
+      <input type="text" name="dpi" class="form-input" required/>  
+<center> <input class="form-btn" name="submit" type="submit" value="Ok" /></center>
  </body>
  </html>
