@@ -1,6 +1,11 @@
 body{
 background-color:skyblue;
 color:;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 300;
+  	font-size: 20px;
+
 
 }
 
@@ -47,4 +52,8 @@ h2
  }
  h1
   {
-    font-family: cursive;
+
+font-family: 'Architects Daughter', cursive;
+font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 300;
+  	font-size: 40px;
